@@ -1,6 +1,6 @@
-import { forOwn, publish, publishData, alias } from './utils';
+import { forOwn, publish, publishData, alias } from './utils.js';
 
-class PubSub {
+export class PubSub {
   /**
    * Creates a PubSub instance.
    * @constructor PubSub
@@ -16,6 +16,7 @@ class PubSub {
     this._pubsub_topics = {}; // Storage for topics that can be broadcast or listened to.
     this._pubsub_uid = -1; // A topic identifier.
     this._options = { ...defaults, ...options };
+       console.log("PubSub  new...");
   }
 
   /**

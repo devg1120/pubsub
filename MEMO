@@ -1,0 +1,23 @@
+
+
+basic
+   simple pubsub
+
+
+basic-serializer 
+   simple pubsub
+   simple serialazer
+
+basic-serializer2
+   simple pubsub
+   advanced serialazer   // class instance serializer
+            esserializer-js/
+            esserializer-ts/
+
+PubSub
+   pubsub https://github.com/georapbox/PubSub  
+
+PubSub2
+   pubsub https://github.com/georapbox/PubSub  
+   advanced serialazer   // class instance serializer
+            esserializer-js/
